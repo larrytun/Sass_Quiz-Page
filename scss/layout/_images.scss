@@ -1,55 +1,15 @@
 .card-1-image{
-  width: 95%;
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 6px;
-  border: 3px solid black;
-  background-image: url("../img/Sunny.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 0;
-  padding: 56.25% 0 0 0;
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/Sunny.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
 }
 
 .card-2-image{
-  width: 95%;
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 6px;
-  border: 3px solid black;
-  background-image: url("../img/donald-face.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 0;
-  padding: 56.25% 0 0 0;
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/donald-face.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
 }
 
 .card-3-image{
-  width: 95%;
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 6px;
-  border: 3px solid black;
-  background-image: url("../img/houses.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 0;
-  padding: 56.25% 0 0 0;
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/houses.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
 }
 
 .card-4-image{
-  width: 95%;
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 6px;
-  border: 3px solid black;
-  background-image: url("../img/jfk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 0;
-  padding: 56.25% 0 0 0;
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/jfk.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
 }

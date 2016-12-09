@@ -1,9 +1,7 @@
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+  @include border-box(border-box);
 }
 
 body {
@@ -12,18 +10,16 @@ body {
 }
 
 h1 {
-  font-weight: bolder;
-  font-size: 35px;
+  @include page-texts(bolder, 35px);
 }
 
 h2 {
-  font-weight: lighter;
-  font-size: 20px;
+  @include page-texts(lighter, 20px);
+  text-shadow: 1px 1px grey;
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: normal;
+  @include page-texts(normal, 22px);
   margin: auto;
   text-align: center;
 }

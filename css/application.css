@@ -15,11 +15,12 @@ h1 {
 
 h2 {
   font-weight: lighter;
-  font-size: 20px; }
+  font-size: 20px;
+  text-shadow: 1px 1px grey; }
 
 h3 {
-  font-size: 22px;
   font-weight: normal;
+  font-size: 22px;
   margin: auto;
   text-align: center; }
 
@@ -41,31 +42,29 @@ h3 {
 
 .card-1-container::after {
   content: "";
-  background: url("../img/Sunny-2.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
   z-index: -1;
   border-radius: 5px;
+  background: url("../img/Sunny-2.jpg");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .card-1-container::before {
   content: "";
-  background-color: yellow;
   opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
   z-index: -1;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: yellow; }
 
 .card-2-container {
   width: 100%;
@@ -79,31 +78,29 @@ h3 {
 
 .card-2-container::after {
   content: "";
-  background: url("../img/donald.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
-  background-position: bottom;
   z-index: -1;
   border-radius: 5px;
+  background: url("../img/donald.jpg");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .card-2-container::before {
   content: "";
-  background-color: pink;
   opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
   z-index: -1;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: pink; }
 
 .card-3-container {
   width: 100%;
@@ -117,31 +114,29 @@ h3 {
 
 .card-3-container::after {
   content: "";
-  background: url("../img/harry.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
-  background-position: bottom;
   z-index: -1;
   border-radius: 5px;
+  background: url("../img/harry.jpg");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .card-3-container::before {
   content: "";
-  background-color: lightblue;
   opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
   z-index: -1;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: lightblue; }
 
 .card-4-container {
   width: 100%;
@@ -155,31 +150,29 @@ h3 {
 
 .card-4-container::after {
   content: "";
-  background: url("../img/pbr.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
-  background-position: bottom;
   z-index: -1;
   border-radius: 5px;
+  background: url("../img/pbr.jpg");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .card-4-container::before {
   content: "";
-  background-color: white;
   opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  background-repeat: no-repeat;
   z-index: -1;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: white; }
 
 .button-rectangle-1, .button-rectangle-2, .button-rectangle-3, .button-rectangle-4 {
   border-radius: 60px;
@@ -192,6 +185,7 @@ h3 {
 
 .card-1-image {
   width: 95%;
+  height: 0;
   margin: auto;
   margin-top: 10px;
   border-radius: 6px;
@@ -200,11 +194,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 0;
   padding: 56.25% 0 0 0; }
 
 .card-2-image {
   width: 95%;
+  height: 0;
   margin: auto;
   margin-top: 10px;
   border-radius: 6px;
@@ -213,11 +207,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 0;
   padding: 56.25% 0 0 0; }
 
 .card-3-image {
   width: 95%;
+  height: 0;
   margin: auto;
   margin-top: 10px;
   border-radius: 6px;
@@ -226,11 +220,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 0;
   padding: 56.25% 0 0 0; }
 
 .card-4-image {
   width: 95%;
+  height: 0;
   margin: auto;
   margin-top: 10px;
   border-radius: 6px;
@@ -239,19 +233,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 0;
   padding: 56.25% 0 0 0; }
 
-.card-1-text {
-  padding: 10px; }
-
-.card-2-text {
-  padding: 10px; }
-
-.card-3-text {
-  padding: 10px; }
-
-.card-4-text {
+.card-1-text, .card-2-text, .card-3-text, .card-4-text {
   padding: 10px; }
 
 .button-rectangle-1 {

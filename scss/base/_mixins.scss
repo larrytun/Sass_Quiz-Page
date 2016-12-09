@@ -1,0 +1,47 @@
+@mixin border-box($box-sizing) {
+  -webkit-box-sizing: $box-sizing;
+     -moz-box-sizing: $box-sizing;
+          box-sizing: $box-sizing;
+}
+
+@mixin page-texts($f-weight, $f-size) {
+  font-weight: $f-weight;
+  font-size: $f-size;
+}
+
+@mixin card-containers($width, $max-width, $margin, $padding, $display, $position, $b-radius, $m-top){
+  width: $width;
+  max-width: $max-width;
+  margin: $margin;
+  padding: $padding;
+  display: $display;
+  position: $position;
+  border-radius: $b-radius;
+  margin-top: $m-top;
+}
+
+@mixin card-backgrounds($content, $opacity, $top, $left, $bottom, $right, $postion, $z-index, $b-radius){
+  content: $content;
+  opacity: $opacity;
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+  right: $right;
+  position: $postion;
+  z-index: $z-index;
+  border-radius: $b-radius;
+}
+
+@mixin card-pictures ($width, $height, $margin, $margin-top, $b-radius, $border, $background-image, $bg-repeat, $bg-size, $bg-position, $padding){
+  width: $width;
+  height: $height;
+  margin: $margin;
+  margin-top: $margin-top;
+  border-radius: $b-radius;
+  border: $border;
+  background-image: $background-image;
+  background-repeat: $bg-repeat;
+  background-size: $bg-size;
+  background-position: $bg-position;
+  padding: $padding;
+}

@@ -6,169 +6,69 @@
 }
 
 .card-1-container  {
-  width: 100%;
-  max-width: 364px;
-  margin: auto;
-  padding: 10px;
-  display: block;
-  position: relative;
-  border-radius: 5px;
-  margin-top: 10px;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
 }
 
 
 .card-1-container::after {
-  content: "";
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
   background: url("../img/Sunny-2.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
   background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1;
-  border-radius: 5px;
   background-size: cover;
 }
 
 .card-1-container::before {
-  content: "";
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
   background-color: yellow;
-  opacity: 0.9;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  z-index: -1;
-  border-radius: 5px;
 }
 
 .card-2-container  {
-  width: 100%;
-  max-width: 364px;
-  margin: auto;
-  padding: 10px;
-  display: block;
-  position: relative;
-  border-radius: 5px;
-  margin-top: 10px;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
 }
 
 
 .card-2-container::after {
-  content: "";
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
   background: url("../img/donald.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
   background-repeat: no-repeat;
-  background-position: bottom;
-  z-index: -1;
-  border-radius: 5px;
   background-size: cover;
 }
 
 .card-2-container::before {
-  content: "";
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
   background-color: pink;
-  opacity: 0.9;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  z-index: -1;
-  border-radius: 5px;
 }
 
 .card-3-container  {
-  width: 100%;
-  max-width: 364px;
-  margin: auto;
-  padding: 10px;
-  display: block;
-  position: relative;
-  border-radius: 5px;
-  margin-top: 10px;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
 }
 
 
 .card-3-container::after {
-  content: "";
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
   background: url("../img/harry.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
   background-repeat: no-repeat;
-  background-position: bottom;
-  z-index: -1;
-  border-radius: 5px;
   background-size: cover;
 }
 
 .card-3-container::before {
-  content: "";
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
   background-color: lightblue;
-  opacity: 0.9;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  z-index: -1;
-  border-radius: 5px;
 }
 
 .card-4-container  {
-  width: 100%;
-  max-width: 364px;
-  margin: auto;
-  padding: 10px;
-  display: block;
-  position: relative;
-  border-radius: 5px;
-  margin-top: 10px;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
 }
 
 
 .card-4-container::after {
-  content: "";
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
   background: url("../img/pbr.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
   background-repeat: no-repeat;
-  background-position: bottom;
-  z-index: -1;
-  border-radius: 5px;
   background-size: cover;
 }
 
 .card-4-container::before {
-  content: "";
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
   background-color: white;
-  opacity: 0.9;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  z-index: -1;
-  border-radius: 5px;
 }
