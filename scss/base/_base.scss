@@ -8,6 +8,8 @@ body {
   font-family: 'Oswald', sans-serif;
   background-color: #223447;
   margin: 0;
+  padding-bottom: 50px;
+  @include linear-gradient($background-color1, $background-color2);
 }
 
 h1 {

@@ -6,6 +6,7 @@
 
 
 .card-1-container  {
+  border: 2px solid black;
   @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
 
   @media #{$brk-wide} {
@@ -28,6 +29,7 @@
 }
 
 .card-2-container  {
+  border: 2px solid black;
   @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
 
   @media #{$brk-wide} {
@@ -50,6 +52,7 @@
 }
 
 .card-3-container  {
+  border: 2px solid black;
   @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
 
   @media #{$brk-wide} {
@@ -72,6 +75,7 @@
 }
 
 .card-4-container  {
+  border: 2px solid black;
   @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
 
   @media #{$brk-wide} {
