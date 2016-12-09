@@ -1,19 +1,19 @@
 .button-rectangle-1 {
   @extend %buttons;
-  background-color: yellow;
+  background-color: $yellow;
 }
 
 .button-rectangle-2 {
   @extend %buttons;
-  background-color: purple;
+  background-color: $purple;
 }
 
 .button-rectangle-3 {
   @extend %buttons;
-  background-color: blue;
+  background-color: $blue;
 }
 
 .button-rectangle-4 {
   @extend %buttons;
-  background-color: white;
+  background-color: $white;
 }

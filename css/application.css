@@ -64,7 +64,7 @@ h3 {
   position: absolute;
   z-index: -1;
   border-radius: 5px;
-  background-color: yellow; }
+  background-color: #fcff82; }
 
 .card-2-container {
   width: 100%;
@@ -100,7 +100,7 @@ h3 {
   position: absolute;
   z-index: -1;
   border-radius: 5px;
-  background-color: pink; }
+  background-color: #d7a2f2; }
 
 .card-3-container {
   width: 100%;
@@ -136,7 +136,7 @@ h3 {
   position: absolute;
   z-index: -1;
   border-radius: 5px;
-  background-color: lightblue; }
+  background-color: #79e1e5; }
 
 .card-4-container {
   width: 100%;
@@ -172,7 +172,7 @@ h3 {
   position: absolute;
   z-index: -1;
   border-radius: 5px;
-  background-color: white; }
+  background-color: #f4f5ff; }
 
 .button-rectangle-1, .button-rectangle-2, .button-rectangle-3, .button-rectangle-4 {
   border-radius: 60px;
@@ -239,16 +239,16 @@ h3 {
   padding: 10px; }
 
 .button-rectangle-1 {
-  background-color: yellow; }
+  background-color: #fcff82; }
 
 .button-rectangle-2 {
-  background-color: purple; }
+  background-color: #d7a2f2; }
 
 .button-rectangle-3 {
-  background-color: blue; }
+  background-color: #79e1e5; }
 
 .button-rectangle-4 {
-  background-color: white; }
+  background-color: #f4f5ff; }
 
 .like-icon {
   width: 50px; }
