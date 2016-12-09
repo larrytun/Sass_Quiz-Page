@@ -5,24 +5,275 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #223447; }
+
+h1 {
+  font-weight: bolder;
+  font-size: 35px; }
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px; }
+
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: auto;
+  text-align: center; }
+
 .main-container {
   padding: 10px;
   margin: auto;
-  background-color: darkblue; }
+  max-width: 1300px;
+  margin: auto; }
 
 .card-1-container {
   width: 100%;
+  max-width: 364px;
   margin: auto;
-  background-color: red; }
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.card-1-container::after {
+  content: "";
+  background: url("../img/Sunny-2.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  border-radius: 5px;
+  background-size: cover; }
+
+.card-1-container::before {
+  content: "";
+  background-color: yellow;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 5px; }
+
+.card-2-container {
+  width: 100%;
+  max-width: 364px;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.card-2-container::after {
+  content: "";
+  background: url("../img/donald.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+  border-radius: 5px;
+  background-size: cover; }
+
+.card-2-container::before {
+  content: "";
+  background-color: pink;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 5px; }
+
+.card-3-container {
+  width: 100%;
+  max-width: 364px;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.card-3-container::after {
+  content: "";
+  background: url("../img/harry.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+  border-radius: 5px;
+  background-size: cover; }
+
+.card-3-container::before {
+  content: "";
+  background-color: lightblue;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 5px; }
+
+.card-4-container {
+  width: 100%;
+  max-width: 364px;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.card-4-container::after {
+  content: "";
+  background: url("../img/pbr.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+  border-radius: 5px;
+  background-size: cover; }
+
+.card-4-container::before {
+  content: "";
+  background-color: white;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 5px; }
+
+.button-rectangle-1, .button-rectangle-2, .button-rectangle-3, .button-rectangle-4 {
+  border-radius: 60px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  display: inline-block;
+  position: absolute;
+  padding: 6px; }
 
 .card-1-image {
   width: 95%;
   margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
   background-image: url("../img/Sunny.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 0;
   padding: 56.25% 0 0 0; }
+
+.card-2-image {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
+  background-image: url("../img/donald-face.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding: 56.25% 0 0 0; }
+
+.card-3-image {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
+  background-image: url("../img/houses.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding: 56.25% 0 0 0; }
+
+.card-4-image {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
+  background-image: url("../img/jfk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding: 56.25% 0 0 0; }
+
+.card-1-text {
+  padding: 10px; }
+
+.card-2-text {
+  padding: 10px; }
+
+.card-3-text {
+  padding: 10px; }
+
+.card-4-text {
+  padding: 10px; }
+
+.button-rectangle-1 {
+  background-color: yellow; }
+
+.button-rectangle-2 {
+  background-color: purple; }
+
+.button-rectangle-3 {
+  background-color: blue; }
+
+.button-rectangle-4 {
+  background-color: white; }
+
+.like-icon {
+  width: 50px; }
+
+.share-icon {
+  width: 50px; }
+
+.card-icons {
+  display: inline-block;
+  margin-left: 200px; }
 
 /*# sourceMappingURL=application.css.map */
