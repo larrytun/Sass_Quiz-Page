@@ -1,12 +1,17 @@
 .main-container {
-  padding: 10px;
   margin: auto;
   max-width: 1300px;
   margin: auto;
 }
 
+
 .card-1-container  {
-  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
 }
 
 
@@ -23,7 +28,12 @@
 }
 
 .card-2-container  {
-  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
 }
 
 
@@ -40,7 +50,12 @@
 }
 
 .card-3-container  {
-  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
 }
 
 
@@ -57,7 +72,12 @@
 }
 
 .card-4-container  {
-  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 10px);
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
 }
 
 
