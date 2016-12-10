@@ -17,3 +17,13 @@
   @extend %buttons;
   background-color: $white;
 }
+
+.button-rectangle-5 {
+  @extend %buttons;
+  background-color: $green;
+}
+
+.button-rectangle-6 {
+  @extend %buttons;
+  background-color: $red;
+}

@@ -14,11 +14,13 @@ body {
 
 h1 {
   @include page-texts(bolder, 35px);
+  text-shadow: 2px 2px 1px lighten($green, 50%);
 }
 
 h2 {
   @include page-texts(lighter, 20px);
-  text-shadow: 1px 1px grey;
+  text-shadow: 2px 2px 2px darken(black, 30%);
+  color: white;
 }
 
 h3 {

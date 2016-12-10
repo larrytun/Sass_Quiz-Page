@@ -13,3 +13,11 @@
 .card-4-image{
   @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/jfk.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
 }
+
+.card-5-image{
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/island-home.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
+}
+
+.card-6-image{
+  @include card-pictures (95%, 0, auto, 10px, 6px, 3px solid black, url("../img/3Ms.jpg"), no-repeat, cover, center, 56.25% 0 0 0);
+}

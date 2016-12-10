@@ -16,12 +16,14 @@ body {
 
 h1 {
   font-weight: bolder;
-  font-size: 35px; }
+  font-size: 35px;
+  text-shadow: 2px 2px 1px white; }
 
 h2 {
   font-weight: lighter;
   font-size: 20px;
-  text-shadow: 1px 1px grey; }
+  text-shadow: 2px 2px 2px black;
+  color: white; }
 
 h3 {
   font-weight: normal;
@@ -198,6 +200,88 @@ h3 {
   border-radius: 5px;
   background-color: #f4f5ff; }
 
+.card-5-container {
+  border: 2px solid black;
+  width: 100%;
+  max-width: 364px;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 30px; }
+  @media (min-width: 750px) {
+    .card-5-container {
+      float: left;
+      margin-left: 50px; } }
+
+.card-5-container::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  background: url("../img/norway.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.card-5-container::before {
+  content: "";
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #47ffb5; }
+
+.card-6-container {
+  border: 2px solid black;
+  width: 100%;
+  max-width: 364px;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 30px; }
+  @media (min-width: 750px) {
+    .card-6-container {
+      float: left;
+      margin-left: 50px; } }
+
+.card-6-container::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  background: url("../img/2Ms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.card-6-container::before {
+  content: "";
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #f79191; }
+
 .header {
   width: 100%;
   height: 90px;
@@ -216,7 +300,7 @@ h3 {
   position: relative;
   margin-left: 240px; }
 
-.button-rectangle-1, .button-rectangle-2, .button-rectangle-3, .button-rectangle-4 {
+.button-rectangle-1, .button-rectangle-2, .button-rectangle-3, .button-rectangle-4, .button-rectangle-5, .button-rectangle-6 {
   border-radius: 60px;
   width: 150px;
   height: 50px;
@@ -277,6 +361,32 @@ h3 {
   background-position: center;
   padding: 56.25% 0 0 0; }
 
+.card-5-image {
+  width: 95%;
+  height: 0;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
+  background-image: url("../img/island-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 56.25% 0 0 0; }
+
+.card-6-image {
+  width: 95%;
+  height: 0;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 3px solid black;
+  background-image: url("../img/3Ms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 56.25% 0 0 0; }
+
 .card-1-text, .card-2-text, .card-3-text, .card-4-text {
   padding: 10px; }
 
@@ -291,6 +401,12 @@ h3 {
 
 .button-rectangle-4 {
   background-color: #f4f5ff; }
+
+.button-rectangle-5 {
+  background-color: #47ffb5; }
+
+.button-rectangle-6 {
+  background-color: #f79191; }
 
 .like-icon {
   width: 50px; }

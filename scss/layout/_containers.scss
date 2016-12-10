@@ -84,7 +84,6 @@
   }
 }
 
-
 .card-4-container::after {
   @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
   background: url("../img/pbr.jpg");
@@ -95,4 +94,48 @@
 .card-4-container::before {
   @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
   background-color: $white;
+}
+
+.card-5-container  {
+  border: 2px solid black;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
+}
+
+.card-5-container::after {
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
+  background: url("../img/norway.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-5-container::before {
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
+  background-color: $green;
+}
+
+.card-6-container  {
+  border: 2px solid black;
+  @include card-containers (100%, 364px, auto, 10px, block, relative,5px, 30px);
+
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 50px;
+  }
+}
+
+.card-6-container::after {
+  @include card-backgrounds ("", 0.5, 0, 0, 0, 0, absolute, -1, 5px);
+  background: url("../img/2Ms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-6-container::before {
+  @include card-backgrounds ("", 0.9, 0, 0, 0, 0, absolute, -1, 5px);
+  background-color: $red;
 }
