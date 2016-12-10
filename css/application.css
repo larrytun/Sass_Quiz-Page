@@ -309,6 +309,9 @@ h3 {
   display: inline-block;
   position: absolute;
   padding: 6px; }
+  .button-rectangle-1:hover, .button-rectangle-2:hover, .button-rectangle-3:hover, .button-rectangle-4:hover, .button-rectangle-5:hover, .button-rectangle-6:hover {
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer; }
 
 .card-1-image {
   width: 95%;
@@ -409,11 +412,12 @@ h3 {
 .button-rectangle-6 {
   background-color: #f79191; }
 
-.like-icon {
+.like-icon, .share-icon {
   width: 50px; }
-
-.share-icon {
-  width: 50px; }
+  .like-icon:hover, .share-icon:hover {
+    -webkit-filter: drop-shadow(1px 1px 6px black);
+    filter: drop-shadow(1px 1px 6px black);
+    cursor: pointer; }
 
 .card-icons {
   display: inline-block;

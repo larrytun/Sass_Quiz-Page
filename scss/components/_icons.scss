@@ -1,9 +1,15 @@
 .like-icon {
   width: 50px;
+
+  &:hover {
+    -webkit-filter: drop-shadow(1px 1px 6px black);
+    filter: drop-shadow(1px 1px 6px black);
+    cursor: pointer;
+  }
 }
 
 .share-icon {
-  width: 50px;
+  @extend .like-icon;
 }
 
 .card-icons {
