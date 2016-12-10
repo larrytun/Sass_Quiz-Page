@@ -34,6 +34,7 @@ h3 {
 .main-container {
   margin: auto;
   max-width: 1300px;
+  min-height: 1250px;
   margin: auto; }
 
 .card-1-container {
@@ -387,7 +388,7 @@ h3 {
   background-position: center;
   padding: 56.25% 0 0 0; }
 
-.card-1-text, .card-2-text, .card-3-text, .card-4-text {
+.card-1-text, .card-2-text, .card-3-text, .card-4-text, .card-5-text, .card-6-text {
   padding: 10px; }
 
 .button-rectangle-1 {
