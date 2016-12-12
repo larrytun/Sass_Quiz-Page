@@ -1,29 +1,29 @@
 .button-rectangle-1 {
   @extend %buttons;
-  background-color: $yellow;
+  @include linear-gradient($yellow, darken($yellow, 10%), darken($yellow, 40%));
 }
 
 .button-rectangle-2 {
   @extend %buttons;
-  background-color: $purple;
+  @include linear-gradient($purple, darken($purple, 10%), darken($purple, 40%));
 }
 
 .button-rectangle-3 {
   @extend %buttons;
-  background-color: $blue;
+  @include linear-gradient($blue, darken($blue, 10%), darken($blue, 40%));
 }
 
 .button-rectangle-4 {
   @extend %buttons;
-  background-color: $white;
+  @include linear-gradient($white, darken($white, 10%), darken($white, 40%));
 }
 
 .button-rectangle-5 {
   @extend %buttons;
-  background-color: $green;
+  @include linear-gradient($green, darken($green, 10%), darken($green, 40%));
 }
 
 .button-rectangle-6 {
   @extend %buttons;
-  background-color: $red;
+  @include linear-gradient(lighten($red, 10%), $red, darken($red, 30%));
 }

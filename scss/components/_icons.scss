@@ -6,6 +6,9 @@
     filter: drop-shadow(1px 1px 6px black);
     cursor: pointer;
   }
+  @media #{$tiny-brk} {
+    width: 40px;
+  }
 }
 
 .share-icon {

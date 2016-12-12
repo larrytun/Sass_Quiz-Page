@@ -305,7 +305,7 @@ h3 {
   border-radius: 60px;
   width: 150px;
   height: 50px;
-  border: 2px solid black;
+  border: 2px solid #333333;
   display: inline-block;
   position: absolute;
   padding: 6px; }
@@ -395,22 +395,34 @@ h3 {
   padding: 10px; }
 
 .button-rectangle-1 {
-  background-color: #fcff82; }
+  background-color: #fcff82;
+  background-image: -webkit-linear-gradient(#fcff82, #fbff4f, #b1b500);
+  background-image: linear-gradient(#fcff82, #fbff4f, #b1b500); }
 
 .button-rectangle-2 {
-  background-color: #d7a2f2; }
+  background-color: #d7a2f2;
+  background-image: -webkit-linear-gradient(#d7a2f2, #c475ec, #7d19af);
+  background-image: linear-gradient(#d7a2f2, #c475ec, #7d19af); }
 
 .button-rectangle-3 {
-  background-color: #79e1e5; }
+  background-color: #79e1e5;
+  background-image: -webkit-linear-gradient(#79e1e5, #4ed7dd, #18777a);
+  background-image: linear-gradient(#79e1e5, #4ed7dd, #18777a); }
 
 .button-rectangle-4 {
-  background-color: #f4f5ff; }
+  background-color: #f4f5ff;
+  background-image: -webkit-linear-gradient(#f4f5ff, #c1c7ff, #283cff);
+  background-image: linear-gradient(#f4f5ff, #c1c7ff, #283cff); }
 
 .button-rectangle-5 {
-  background-color: #47ffb5; }
+  background-color: #47ffb5;
+  background-image: -webkit-linear-gradient(#47ffb5, #14ffa0, #007a49);
+  background-image: linear-gradient(#47ffb5, #14ffa0, #007a49); }
 
 .button-rectangle-6 {
-  background-color: #f79191; }
+  background-color: #fac1c1;
+  background-image: -webkit-linear-gradient(#fac1c1, #f79191, #df1010);
+  background-image: linear-gradient(#fac1c1, #f79191, #df1010); }
 
 .like-icon, .share-icon {
   width: 50px; }
@@ -418,6 +430,9 @@ h3 {
     -webkit-filter: drop-shadow(1px 1px 6px black);
     filter: drop-shadow(1px 1px 6px black);
     cursor: pointer; }
+  @media (max-width: 500px) {
+    .like-icon, .share-icon {
+      width: 40px; } }
 
 .card-icons {
   display: inline-block;
